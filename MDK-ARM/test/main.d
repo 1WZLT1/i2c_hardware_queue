@@ -32,3 +32,9 @@ test\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h
 test\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h
 test\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h
 test\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
+test\main.o: ../Core/Inc/i2c.h
+test\main.o: ../Core/Inc/memorymap.h
+test\main.o: ../Core/Inc/gpio.h
+test\main.o: ../example/i2c_e.h
+test\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+test\main.o: ../example/rm3100.h

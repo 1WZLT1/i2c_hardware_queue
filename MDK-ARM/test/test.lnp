@@ -1,9 +1,14 @@
 --cpu Cortex-M7.fp.dp
 "test\startup_stm32h743xx.o"
 "test\main.o"
+"test\gpio.o"
+"test\i2c.o"
+"test\memorymap.o"
 "test\stm32h7xx_it.o"
 "test\stm32h7xx_hal_msp.o"
 "test\stm32h7xx_hal_cortex.o"
+"test\stm32h7xx_hal_i2c.o"
+"test\stm32h7xx_hal_i2c_ex.o"
 "test\stm32h7xx_hal_rcc.o"
 "test\stm32h7xx_hal_rcc_ex.o"
 "test\stm32h7xx_hal_flash.o"
@@ -16,10 +21,10 @@
 "test\stm32h7xx_hal_pwr.o"
 "test\stm32h7xx_hal_pwr_ex.o"
 "test\stm32h7xx_hal.o"
-"test\stm32h7xx_hal_i2c.o"
-"test\stm32h7xx_hal_i2c_ex.o"
 "test\stm32h7xx_hal_exti.o"
 "test\system_stm32h7xx.o"
+"test\i2c_e.o"
+"test\rm3100.o"
 --strict --scatter "test\test.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
