@@ -64,7 +64,6 @@ static void MPU_Config(void);
   * @brief  The application entry point.
   * @retval int
   */
-int i = 0;
 int main(void)
 {
 
@@ -93,7 +92,6 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_I2C4_Init();
   MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
 
